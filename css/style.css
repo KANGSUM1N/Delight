@@ -2058,6 +2058,7 @@ body::-webkit-scrollbar-track {
 }
 
 .sticky_box {
+    width: 440px;
     position: sticky;
     top: 130px;
 }
@@ -2186,7 +2187,7 @@ input[type=number] {
     font-size: 16px;
 }
 .information_box3 li:nth-child(2) {
-    padding: 0 82px;
+    padding: 0 92px;
 }
 .information_box4 {
     font-size: 16px;
