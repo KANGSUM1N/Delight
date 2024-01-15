@@ -850,31 +850,14 @@ body::-webkit-scrollbar-track {
 }
 
 .tabs li span {
-    position: relative;
+
     padding-bottom: 10px;
     cursor: pointer;
-
+}
+.tabs .active span {
+    border-bottom: #3c4c6f 3px solid;  
 }
 
-.tabs li span::after {
-    content: "";
-    display: block;
-    width: 0%;
-    height: 3px;
-    background-color: #3c4c6f;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: all 0.5s;
-}
-
-.tabs li span:hover::after {
-    width: 100%;
-}
-
-.tabs li span:focus {
-    color: #f399b1;
-}
 
 #event1 {
     width: 1320px;
@@ -1799,8 +1782,9 @@ body::-webkit-scrollbar-track {
 .brand_video{
     display:block;
     overflow: hidden;
-    height: 867px;
-    position:relative;}
+    height: 1080px;
+    position:relative;
+    width: 100%;}
 
 /*Gift*/
 .gift_box {
